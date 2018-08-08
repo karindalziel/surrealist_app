@@ -1,17 +1,16 @@
 ## Variable descriptions
 
-* Data Repo default or collection
+* [Data Repo default or collection]()
   * [`data_base`](#data_base)
-  * `media_base`
-  * xslt  override template `url_builder
-  * `es_path`and `es_index`
-  * `http://localhost:9200` and `cdrhapi`
-* Collection
-  * `shortname`	
-* API
-  * `es_path` and `es_index`
-* Orchid site
-  * `production`/`development`	
+  * [`media_base`](#media_base)
+  * [xslt  override template `url_builder`]()
+  * [`es_path`and `es_index`]()
+* [Collection](collection)
+  * [`shortname`](#shortname)	
+* [API](api)
+  * [`es_path` and `es_index`]()
+* [Orchid site](#orchid_site)
+  * [`production`/`development`]()	
 
 ### Data Repo default or collection
 
