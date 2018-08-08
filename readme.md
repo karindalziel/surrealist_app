@@ -2,12 +2,13 @@
 
 ### Data Repo default or collection
 
-* location
-  * /data
-    * /config/public.yml [prod]
-    * /config/private.yml [dev]
-    * /collection/Project_Name/config/public.yml [prod]
-    * /collection/Project_Name/config/private.yml [dev]
+**location**
+
+* /data
+  * /config/public.yml [prod]
+  * /config/private.yml [dev]
+  * /collection/Project_Name/config/public.yml [prod]
+  * /collection/Project_Name/config/private.yml [dev]
 
 #### `data_base`
 
