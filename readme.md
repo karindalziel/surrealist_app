@@ -4,7 +4,7 @@
   * [`data_base`](#data_base)
   * [`media_base`](#media_base)
   * [xslt  override template `url_builder`](#url_builder-xslt-template)
-  * [`es_path`and `es_index`]()
+  * [`es_path`and `es_index`](#es_path-and-es_index)
 * [Collection](collection)
   * [`shortname`](#shortname)	
 * [API](api)
