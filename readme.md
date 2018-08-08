@@ -3,14 +3,15 @@
 ### Data Repo default or collection
 
 * location
-  * /config/public.yml [prod]
-  * /config/private.yml [dev]
-  * /collection/Project_Name/config/public.yml [prod]
-  * /collection/Project_Name/config/private.yml [dev]
+  * /data
+    * /config/public.yml [prod]
+    * /config/private.yml [dev]
+    * /collection/Project_Name/config/public.yml [prod]
+    * /collection/Project_Name/config/private.yml [dev]
 
 #### `data_base`
 
-* example: http://cdrhmedia.unl.edu
+* example: `http://cdrhmedia.unl.edu`
 
 Location of data (html, tei, etc.) 
 
@@ -20,8 +21,7 @@ Generally passed to index scripts to build link to html, tei, and other data.
 
 #### `media_base`
 
-* location:
-  * http://cdrhmedia.unl.edu
+* example: `http://cdrhmedia.unl.edu`
 
 Location of the media (audio, video).	
 
@@ -30,12 +30,11 @@ Linking to all media except images in api and html.
 #### `url_builder` XSLT template
 
 * private.yml only
-
 * override template via xsl file, store location in:
   * /config/public.yml
       * to change for all projects
   * /collection/Project_Name/config/private.yml
-      * to change for only one project"	"xslt project override template name: 
+      * to change for only one project 
   * example: https://github.com/CDRH/data/blob/master/scripts/xslt/cdrh_to_html/lib/cdrh.xsl#L115
   
 The default XSLT scripts build an IIIF url based from media_base. 
@@ -45,12 +44,12 @@ Local override: Store file outside repo, reference location from /Project_Name/c
 #### `es_path` and `es_index`
 
 * private.yml only
-"/config/private.yml *
-/collection/Project_Name/config/private.yml"	"es_path
-es_index
-"	"http://localhost:9200
-cdrhapi"	"Location of elasticsearch instance and index.
-"	Used to post to index.
+* example es_path: `http://localhost:9200`
+* example es_index: `cdrhapi`
+
+Location of elasticsearch instance and index.
+
+Used to post to index.
 
 ### Collection 
 
