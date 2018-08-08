@@ -1,7 +1,7 @@
 ## Variable descriptions
 
 * Data Repo default or collection
-  * [`data_base`](data_base)
+  * [`data_base`](#data_base)
   * `media_base`
   * xslt  override template `url_builder
   * `es_path`and `es_index`
