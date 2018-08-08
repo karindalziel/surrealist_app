@@ -1,5 +1,18 @@
 ## Variable descriptions
 
+* Data Repo default or collection
+  * `data_base`
+  * `media_base`
+  * xslt  override template `url_builder
+  * `es_path`and `es_index`
+  * `http://localhost:9200` and `cdrhapi`
+* Collection
+  * `shortname`	
+* API
+  * `es_path` and `es_index`
+* Orchid site
+  * `production`/`development`	
+
 ### Data Repo default or collection
 
 **location**
@@ -70,23 +83,27 @@ Generally the same as the folder name in /data/collections and stored in public.
 
 Used to build URL's in index and HTML scripts.
 
+### API
 
+**location:**
 
+* /rails/api
+  * /config/config.yml
+  
+* example es_path: `http://localhost:9200`
+* example es_index: `cdrhapi`
 
+location of elasticsearch index and index name.
 
+### Orchid Powered Site
 
-/config/config.yml	"development
-  es_path
-  es_index"	"
-http://localhost:9200
-cdrhapi"	location of elasticsearch index and index name.	Connecting to elasticsearch instance.
+**location:**
 
+* /rails/Project_Name
+  * /config/config.yml
+* example production or development: `http://localhost:3000` or `http://localhost:3000/collection/Project_Name`
 
-
-
-
-/config/config.yml	development	"http://localhost:3000 or
-http://localhost:3000/collection/Project_Name"	location of API.	Connecting to API.
+Location of API.
 
 
 
