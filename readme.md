@@ -52,7 +52,13 @@ Location of elasticsearch instance and index.
 
 Used to post to index.
 
-### Collection 
+### Collection
+
+**location**
+
+* /data
+  * /collection/Project_Name/config/public.yml [prod]
+  * /collection/Project_Name/config/private.yml [dev]
 
 #### `shortname`
 
@@ -60,7 +66,7 @@ Used to post to index.
 
 Shortname, or ""slug"" of the project.
 
-Generally the same as the folder name in /data/collections.
+Generally the same as the folder name in /data/collections and stored in public.yml.
 
 Used to build URL's in index and HTML scripts.
 
