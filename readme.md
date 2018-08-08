@@ -7,10 +7,10 @@
   * [`es_path`and `es_index`](#es_path-and-es_index)
 * [Collection](collection)
   * [`shortname`](#shortname)	
-* [API](api)
-  * [`es_path` and `es_index`]()
+* [API](#api)
+  * [`es_path` and `es_index`](#api)
 * [Orchid site](#orchid_site)
-  * [`production`/`development`]()	
+  * [`production`/`development`](#orchid_site)	
 
 ### Data Repo default or collection
 
