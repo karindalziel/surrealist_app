@@ -3,7 +3,7 @@
 * [Data Repo default or collection](#data-repo-default-or-collection)
   * [`data_base`](#data_base)
   * [`media_base`](#media_base)
-  * [xslt  override template `url_builder`]()
+  * [xslt  override template `url_builder`](#url_builder-xslt-template)
   * [`es_path`and `es_index`]()
 * [Collection](collection)
   * [`shortname`](#shortname)	
