@@ -24,7 +24,7 @@
 
 #### `data_base`
 
-* example: `http://cdrhmedia.unl.edu`
+* example: `http://cdrhmedia.unl.edu` 
 
 Location of data (html, tei, etc.) 
 
@@ -89,6 +89,8 @@ Used to build URL's in index and HTML scripts.
 * /rails/api
   * /config/config.yml
   
+#### `es_path` and `es_index`
+  
 * example es_path: `http://localhost:9200`
 * example es_index: `cdrhapi`
 
@@ -100,6 +102,8 @@ location of elasticsearch index and index name.
 
 * /rails/Project_Name
   * /config/config.yml
+  
+* `production` or `development`
 * example production or development: `http://localhost:3000` or `http://localhost:3000/collection/Project_Name`
 
 Location of API.
